@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- Fonts: Vollkorn & Vollkorn SC & Fira Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <title>Контакты</title>
+</head>
+
+<body>
+    <div class="background-img"></div>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-item-link" href="../index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-item-link" href="articles.html">Статьи</a></li>
+                    <li class="nav-item"><a class="nav-item-link" href="catalog.html">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-item-link" href="contacts.html">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-item-link" href="gallery.html">Галерея</a></li>
+                    <li class="nav-item"><a class="nav-item-link active" href="page-nav.html">Навигация</a></li>
+                    <li class="nav-item"><a class="nav-item-link" href="registration.html">Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container content">
+        <div class="bg-overlay"></div>
+
+        <h1 class="contacts-heading">Контакты</h1>
+
+        <div class="centralizer">
+            <div>
+                <h2>Интернет-магазин ROZETKA</h2>
+                <p class="address">Повітрофлотський проспект, 52, Київ, 020007</p>
+            </div>
+            <div>
+                <h3>График работы</h3>
+                <p class="schedule">
+                    10:00–18:00
+                    Воскресенье
+                    <br>
+                    10:00–21:00
+                    Понедельник
+                    <br>
+                    10:00–21:00
+                    Вторник
+                    <br>
+                    10:00–21:00
+                    Среда
+                    <br>
+                    10:00–21:00
+                    Четверг
+                    <br>
+                    10:00–21:00
+                    Пятница
+                    <br>
+                    10:00–21:00
+                    Суббота
+                    <br>
+                    Часы работы могут меняться
+                </p>
+            </div>
+            <div>
+                <h3>Как добраться</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9597.192278471854!2d30.457661581044302!3d50.42307301644256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfc2832bdc63%3A0x9d421df2ec6faf38!2sROZETKA!5e0!3m2!1sru!2sua!4v1639932845114!5m2!1sru!2sua"
+                    width="700" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <form action="contacts.php" method="get">
+            <fieldset>
+                <legend>Форма обратной связи</legend>
+                <div class="form-group">
+                    <label for="myname">Имя</label>
+                    <input class="capitalize-name-sname-patro" type="text" name="myname" id="myname" placeholder="Имя">
+                </div>
+                <div class="form-group">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" placeholder="+380-XX-XX-XXX-XX" id="tel">
+                </div>
+                <div class="form-group">
+                    <label for="email">Электронный адрес</label>
+                    <input type="email" name="email" id="email" placeholder="Электронный адрес">
+                </div>
+                <div class="form-group">
+                    <label for="question">Задайте вопрос</label>
+                    <textarea name="question" id="question" cols="40" rows="10"></textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="submit">Отправить</button>
+                </div>
+                <div class="form-group">
+                    <button class="btn" type="reset">Сбросить форму</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; dark st.
+        </div>
+    </footer>
+</body>
+
+</html>
